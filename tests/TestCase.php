@@ -3,8 +3,8 @@
 namespace Kiendaotac\LaravelDocker\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Kiendaotac\LaravelDocker\LaravelDockerServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
