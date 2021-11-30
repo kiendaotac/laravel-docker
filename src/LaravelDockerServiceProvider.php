@@ -17,9 +17,9 @@ class LaravelDockerServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-docker')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-docker_table')
+//            ->hasConfigFile()
+//            ->hasViews()
+//            ->hasMigration('create_laravel-docker_table')
             ->hasCommand(LaravelDockerCommand::class);
     }
 }
