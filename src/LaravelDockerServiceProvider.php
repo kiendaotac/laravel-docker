@@ -2,9 +2,9 @@
 
 namespace Kiendaotac\LaravelDocker;
 
+use Kiendaotac\LaravelDocker\Commands\LaravelDockerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kiendaotac\LaravelDocker\Commands\LaravelDockerCommand;
 
 class LaravelDockerServiceProvider extends PackageServiceProvider
 {
